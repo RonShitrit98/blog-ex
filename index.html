@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blogin</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="https://kit.fontawesome.com/bd3dba47f4.js" crossorigin="anonymous"></script>
+</head>
+
+<body >
+    <div class="nav-menu">
+        <div class="nav-btn"><a href="#">Journal</a></div>
+        <div class="nav-btn"><a href="#">About</a></div>
+        <div class="nav-btn"><a href="#">Work</a></div>
+        <div class="nav-btn"><a href="#">Contact</a></div>
+    </div>
+    <div class="main-screen" onclick="toggleMenu()"></div>
+        <header class="main-header header-bcg">
+            <div class="main-header content main-layout flex align-center space-between">
+                <div class="logo">Blogin<span>.</span></div>
+                <div class="open-menu fa-solid fa-bars" onclick="toggleMenu()"></div>
+                <ul class="main-nav clean-list flex space-around">
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="main-layout grey-border">
+            <div class="card">
+                <img src="img/01.jpg">
+                <div class="card-content">
+                    <h1 class="card-title">DUIS AUTE IRURE DOLOR IN
+                        HENDERIT IN VOLUPTATE.</h1>
+                    <p class="card-text">
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br> Duis aute
+                        irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                    </p>
+                    <button class="card-btn flex align-center">Continue Reading <span
+                            class="hide fa-solid fa-arrow-right-long"></span></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/02.jpg">
+                <div class="card-content">
+                    <h1 class="card-title">DUIS AUTE IRURE DOLOR IN
+                        HENDERIT IN VOLUPTATE.</h1>
+                    <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commo
+                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br> Duis aute
+                        irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+                    <button class="card-btn flex align-center">Continue Reading <span
+                            class="hide fa-solid fa-arrow-right-long"></span></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/03.jpg">
+                <div class="card-content">
+                    <h1 class="card-title">DUIS AUTE IRURE DOLOR IN
+                        HENDERIT IN VOLUPTATE.</h1>
+                    <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commo
+                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br> Duis aute
+                        irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+                    <button class="card-btn flex align-center">Continue Reading <span
+                            class="hide fa-solid fa-arrow-right-long"></span></button>
+                </div>
+            </div>
+            <section class="page-nav grey-border flex space-between align-center">
+                <div class="nav-btn">
+                    <a class="move-page-btn"><span class=" fa-solid fa-arrow-left-long"></span>PREVIOUS</a>
+                </div>
+                <div class="nav-btn">
+                    <a class="move-page-btn">NEXT<span class=" fa-solid fa-arrow-right-long"></span></a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer flex align-center direction-col center">
+            <div class="footer-logo">Blogin.</div>
+            <p class="footer-rigts">© 2014 Blogin.com - All Rights Reserved - Find more free Templates at
+                Pixelhint.com</p>
+            <div class="footer-social flex">
+                <div class="social-btn fa-brands fa-facebook-f"></div>
+                <div class="social-btn fa-brands fa-twitter"></div>
+                <div class="social-btn fa-brands fa-behance"></div>
+                <div class="social-btn fa-brands fa-dribbble"></div>
+            </div>
+        </footer>
+
+        <script>
+            function toggleMenu() {
+                document.body.classList.toggle("menu-open");
+            }
+        </script>
+</body>
+
+</html>

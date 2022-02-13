@@ -1,0 +1,18 @@
+.page-nav{
+    height: 76px;
+    font-family: latobold;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.page-nav .nav-btn{
+    color: var(--clr7);
+}
+.page-nav .nav-btn span{
+    margin: 1rem ;
+}
+.page-nav .nav-btn a{
+    margin: 1em ;
+}
+
+
